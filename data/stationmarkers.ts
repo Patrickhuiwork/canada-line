@@ -14,7 +14,7 @@ const canadaLineStations: { position: [number, number]; name: string }[] = [
     { position: [49.1942, -123.1783], name: 'YVR-Airport Station' },
     { position: [49.1840, -123.1364], name: 'Aberdeen Station' },
     { position: [49.1748, -123.1364], name: 'Lansdowne Station' },
-    { position: [49.1681, -123.1372], name: 'Richmond-Brighouse Station' },
+    { position: [49.168830, -123.136323], name: 'Richmond-Brighouse Station' },
   ];
   
   export default canadaLineStations;
