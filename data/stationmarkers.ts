@@ -1,6 +1,6 @@
 const canadaLineStations: { position: [number, number]; name: string }[] = [
-    { position: [49.2856, -123.1115], name: 'Waterfront' },
-    { position: [49.2825, -123.1186], name: 'Vancouver City Centre' },
+    { position: [49.2856, -123.1115], name: 'Waterfront Station' },
+    { position: [49.2825, -123.1186], name: 'Vancouver City Centre Station' },
     { position: [49.2746, -123.1219], name: 'Yaletown-Roundhouse Station' },
     { position: [49.2665, -123.1156], name: 'Olympic Village Station' },
     { position: [49.2628, -123.1145], name: 'Broadway-City Hall Station' },

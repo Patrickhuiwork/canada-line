@@ -7,7 +7,7 @@ import canadaLineStations from '../data/stationmarkers';
 
 const icon = L.icon({ iconUrl: '/images/station-icon.png', iconSize: [35, 50] })
 
-const polyline: [number, number][] = canadaLineCoordinates;
+const  multipolyline:[number, number][][] = canadaLineCoordinates;
 
 const redOptions = { color: 'red' }
 const blueOptions = { color: 'blue' }
@@ -29,7 +29,7 @@ function Map() {
                     <Popup>{station.name}</Popup>
                     </Marker>
                 ))}
-        <Polyline pathOptions={redOptions} positions={polyline} />
+        <Polyline pathOptions={redOptions} positions={multipolyline} />
     </MapContainer>
   )
 }
